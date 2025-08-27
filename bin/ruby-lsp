@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+export BUNDLE_GEMFILE="$HOME/.ruby-lsp-tools/Gemfile"
+exec bundle exec ruby-lsp "$@"
